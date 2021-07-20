@@ -65,7 +65,6 @@ $(function() {
                     layer.msg('登录成功');
                     //将登录成功的token存在localstorage中
                     localStorage.setItem('token', res.token);
-
                     location.href = '/index.html';
                 }
             }
