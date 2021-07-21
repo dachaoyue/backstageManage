@@ -46,7 +46,7 @@ function renderAvatter(data) {
 
     //渲染头像
     if(data.user_pic !== null) {
-        $('.layui-nav-img').attr('src', user_pic).show();
+        $('.layui-nav-img').attr('src',data. user_pic).show();
         $('.text-avater').hide();
     }else {
         var first = name[0].toUpperCase();
